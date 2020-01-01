@@ -1,0 +1,6 @@
+$setUserVar[Asker;$sum[$random[1;$getUserVar[İnsanlar]];$getUserVar[Asker]]]
+$cooldown[12h;Yeterince asker topladın!!!!]
+$title[ASKER TOPLAMA]
+$description[**Toplam Asker**:$getUserVar[Asker]💂
+**Toplanan Asker**:$random[1;$getUserVar[İnsanlar]]💂]
+$onlyIf[$getUserVar[Asker]<$getUserVar[İnsanlar];Nüfus yetmio]
