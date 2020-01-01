@@ -1,0 +1,11 @@
+$setUserVar[Asker;$sub[$getUserVar[Asker];$random[0;$getUserVar[Asker]]]]$setUserVar[Asker;$sub[$getUserVar[Asker;$mentioned[1]];$random[0;$getUserVar[Asker;$mentioned[1]]]];$mentioned[1]]
+$setUserVar[Arazi;$sub[$getUserVar[Arazi;$mentioned[1]];$random[0;$getUserVar[Arazi;$mentioned[1]]]]];$mentioned[1]]]
+$setUserVar[Arazi;$sum[$getUserVar[Arazi];$random[0;$getUserVar[Arazi;$mentioned[1]]]]]
+$title[$randomText[TAARUZ BAŞARILI;TAARUZ BAŞARISIZ!]]
+$description[**Senin Kayıpların**:
+Asker:$random[0;$getUserVar[Asker]]]
+$addField[Onun kayıpları;Asker:$random[0;$getUserVar[Asker;$mentioned[1]]]]
+$color[$randomText[FF0000;00FF00]]
+$argsCheck[>1;İşgal edeceğin bölgeyi belirtmedin!]
+$onlyIf[$getUserVar[Asker]>50;Asker yetimiyor]
+$image[https://cdn.discordapp.com/attachments/628171918385741843/635772363299880980/08Fir18-4_0.jpeg]
