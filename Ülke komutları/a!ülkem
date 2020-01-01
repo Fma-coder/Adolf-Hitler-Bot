@@ -1,0 +1,19 @@
+$nomention 
+$onlyIf[$getUserVar[Arazi]>1;İşgal edildin]
+$setUserVar[Başkan;$username]
+$title[$getUserVar[Ülkem]]
+$description[**👑BAŞKAN**:$getUserVar[Başkan]
+
+**👨‍👩‍👧‍👦NÜFUS**:$getUserVar[İnsanlar]
+
+**💰HAZİNE**:$getUserVar[Hazineler]
+
+**💻TEKNOLOJİ**:$getUserVar[Tekno]
+
+**💳İDEOLOJİ**:$getUserVar[İdeo]
+
+**💂ASKER**:$getUserVar[Asker]
+
+**🎟ARAZİ**:$getUserVar[Arazi]]
+$image[$getUserVar[Flag]]
+$thumbnail[$authorAvatar]
