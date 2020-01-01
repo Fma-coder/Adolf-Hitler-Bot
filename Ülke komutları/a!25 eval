@@ -1,0 +1,4 @@
+$setUserVar[Hazineler;$sub[$getUserVar[Hazineler];100]]
+$setUserVar[İnsanlar;$sum[$getUserVar[İnsanlar];75]]
+$onlyIf[$getUserVar[Hazineler]>100;Paran yetmiyor]
+25 ev alındı
