@@ -1,0 +1,4 @@
+$setUserVar[Hazineler;$sum[$getUserVar[Hazineler];$random[100;$getUserVar[İnsanlar]]]]
+$title[VERGİ TOPLANILDI]
+$description[**$random[100;$getUserVar[İnsanlar]]** vergi topladın!]
+$cooldown[3h;Bir daha vergini toplamak için %time% bekle]
