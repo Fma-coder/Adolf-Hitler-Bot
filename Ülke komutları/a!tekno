@@ -1,0 +1,4 @@
+$setUserVar[Hazineler;$sub[$getUserVar[Hazineler];100]]
+$setUserVar[Tekno;$sum[$getUserVar[Tekno];1]]
+$onlyIf[$getUserVar[Hazineler]>100;Paran yetmiyor]
+Teknoloji artdı!!!!!!
